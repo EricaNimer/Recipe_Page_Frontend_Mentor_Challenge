@@ -18,7 +18,6 @@
     --Dark-Charcoal: hsl(24, 5%, 18%);
     }
 
-
 body{
     margin: 0;
     padding: 0;
@@ -34,38 +33,298 @@ body{
 }
 .omelette__description h2{
     font-family: var(--first-font);
-    font-size: 2.5rem;
+    font-size: 2rem;
     letter-spacing: 0.2rem;
     color: var(--Dark-Charcoal);
 }
 
 .omelette__description p{
     font-family: var(--second-font);
-    font-size: 1.5rem;
-    padding-right: 2rem;
+    font-size: 1rem;
     color: var(--Dark-Charcoal);
 }
 
 .section__preparation {
     background-color: var(--Rose-White);
-    margin-left: 3rem;
+    margin: 2rem 0 0 2.5rem;
     width: 80vw;
     border-radius: 1.5rem;
+    padding-bottom: 0.25rem;
 }
 
 .section__preparation h2{
-    padding: 1.5rem 0 0 1.5rem ;
+    padding: 1.5rem 0 0 2rem ;
     color: var(--Dark-Raspberry);
+    font-family: var(--second-font);
+}
+
+.section__preparation ul{
+    list-style: none;
+}
+
+.section__preparation li{
+    font-family: var(--second-font);
+    color: var(--Dark-Charcoal);
+    font-size: 1rem;  
+    padding: 0 0 0.85rem 0.85rem; 
+    line-height: 1.5rem;
+    position: relative;
+}
+
+.section__preparation li:before{
+    content: "\2022";
+    color: var(--Dark-Raspberry);
+    position: absolute; 
+    left: -0.5em;
+    font-size: 1.5rem;
 }
 
 .sapan__preparation{
+    font-weight: 700;
+}
+
+.section__ingredients{
+    padding: 1rem 0 0 2rem;
+    font-family: var(--second-font);
+    margin-bottom: 3rem;
+}
+
+.section__ingredients h2{
+    font-size: 2rem;
+    font-family: var(--first-font);
+    color: var(--Nutmeg);
+}
+
+.section__ingredients ul{
+    list-style: none;
+}
+
+.section__ingredients li{
+    padding-top: 0.85rem;
+    font-family: var(--second-font);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    position: relative;
+}
+
+.section__ingredients li:before{
+    content: "\2022";
+    color: var(--Dark-Raspberry);
+    position: absolute; 
+    left: -1.5em;
+    font-size: 1.5rem;
+}
+
+hr {
+  width: 80vw;  
+}
+
+.section__instructions{
+    padding-left: 2rem;
+}
+
+.section__instructions h2{
+    color: var(--Nutmeg);
+    font-size: 2rem;
+    font-family: var(--first-font);
+}
+
+.section__instructions li{
+    font-family: var(--second-font);
+    font-weight: 700;
+    color: var(--Dark-Raspberry);
+    font-size: 0.95rem;  
+    padding: 0 0 0.85rem 0.85rem; 
+    line-height: 1.5rem;
+    position: relative;
+}
+
+.instrictions__bold{
+    font-weight: 700;
     color: var(--Dark-Charcoal);
-    
+}
+
+.instrictions__color{
+    color: var(--Dark-Charcoal);
+    font-weight: 400;
+}
+
+.section__instructions ol{
+    list-style: decimal;
+}
+
+.section__instructions ol li::before {
+    color: var(--Dark-Raspberry); /* Altere para a cor desejada */
+}
+
+
+.section__nutrition h2{
+    font-size: 2rem;
+    color: var(--Nutmeg);
+    padding-left: 2rem;
+    font-family: var(--first-font);
+}
+
+.description__nutrtion{
+    font-family: var(--second-font);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--Dark-Charcoal);
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nutritional__info{
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.info__content{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--Dark-Charcoal);
+}
+
+.infos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info__value{
+    color: var(--Dark-Raspberry);
+    font-weight: 700
+}
+
+.nutritional__info hr{
+    width: 90vw;
+    padding: 0;
 }
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    margin: 2rem 0 2rem 0;
+    color: var(--Dark-Charcoal);
+    font-family: var(--second-font);
+    font-size: 0.7rem; 
+    text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color:var(--Dark-Raspberry); 
+}
+
+@media only screen and (min-width: 376px){
+
+body{
+    margin: 0;
+    padding: 0;  
+}
+
+.img__content{
+    text-align: center;
+}
+
+.omelette__img{
+    width: 80vw;
+    border-radius:10px;
+    margin-top: 3rem;
+}
+
+.omelette__description{
+    margin-left: 8.7rem;
+}
+
+.omelette__description h2{
+    font-size: 4rem;
+}
+
+.omelette__description p{
+    width: 80VW;
+    font-size: 2rem;
+
+}
+
+br {
+    display: none;
+}
+
+.section__preparation{
+    width: 80VW;
+    margin-left: 10.5rem;
+}
+
+.section__preparation h2{
+    font-size: 2.5rem;
+}
+
+.section__preparation ul{
+    margin-left: 1rem;
+}
+
+.section__preparation li{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+.section__ingredients{
+    margin-left: 9rem;
+}
+
+.section__ingredients h2{
+    font-size: 2.5rem;
+}
+
+.section__ingredients li{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--Dark-Charcoal);
+}
+
+.section__instructions{
+    margin-left: 9rem;
+}
+
+.section__instructions h2{
+    font-size: 2.5rem;
+}
+
+.section__instructions li{
+    width: 70vw;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.section__nutrition{
+    margin-left: 9rem;
+}
+
+.section__nutrition h2{
+    font-size: 2.5rem;
+}
+
+.section__nutrition p {
+    font-size: 1.5rem;
+}
+
+.nutritional__info{
+    width: 70vw;
+}
+
+.nutritional__info hr {
+    margin-left: 2rem;
+    width: 79.55vw;   
+}
+
+.info__content{
+    color: var(--Dark-Charcoal);
+    font-family: var(--second-font);
+}
+
+.info__value{
+    font-family: var(--second-font);
+}
+
+.attribution {
+    margin-top: 3.5rem;
+    font-size: 1.25rem;
+}
+
 }
