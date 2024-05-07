@@ -12,32 +12,52 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
+
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
+This project is a solution to the Recipe page challenge on Frontend Mentor. The challenge was to create a responsive recipe page using HTML and CSS.
+
+I focused on implementing clean and semantic HTML5 markup along with CSS Grid and Flexbox for layout and styling. Additionally, I utilized a mobile-first approach to ensure a seamless experience across various devices.
+
+Overall, this project allowed me to sharpen my front-end development skills while tackling a real-world design challenge.
+
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./assets/screenshot-mobile-first.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://recipe-page-frontend-mentor-challenge.vercel.app/]
 
 ## My process
+
+Developing the recipe page challenge was a journey guided by my vision and passion for programming. With a final design in hand, courtesy of Frontend Mentor, I immersed myself in the process of turning the idea into reality.
+
+- Starting Point:
+
+The final design provided by Frontend Mentor served as my starting point.
+
+- Creative Implementation:
+
+Despite having a ready-made design, implementation demanded creativity and technical skill. I adjusted the code to ensure that every detail of the design was accurately reproduced while keeping the user experience in mind.
+
+- Testing and Refining:
+
+As the project came to life, frequent tests were conducted to ensure functionality and responsiveness across different devices. With each tweak, the challenge came closer to the desired final result.
+
+- Launch to the Community:
+
+With the challenge completed, it was exciting to share it with the GitHub community. Not only is it a safe place to showcase my projects, but I can also track my programming development.
+
+ - Reflection and Learning:
+
+After the launch, I took time to reflect on the process. Identifying strengths and areas for improvement helped me grow as a developer and enhance my skills for future challenges.
+
+Creating the recipe page challenge was a challenging yet incredibly rewarding journey. It was an opportunity to showcase my skills, learn from the experience, and contribute to the developer community.
 
 ### Built with
 
@@ -46,59 +66,52 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Even though I already had knowledge of HTML5 and CSS, I had the opportunity to refresh my memory on the <ol> tag for creating ordered lists. As you can see, in the instructions section, I needed a numbered ordered list, but I only knew the <ul> tag for creating lists.
 
-To see how you can add code snippets, see below:
+Since this is my first time creating a responsive page, I didn't know how to use and when to use the "vw" unit of measurement. But since the project's focus was on being responsive, this unit of measurement came in handy. Because the content adapts to the width of the client's device screen.
+
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+
+  <ol>
+      <li><span class="instrictions__bold">Beat the eggs:</span><span class="instrictions__color"> In a bowl, beat the</br>eggs with a pinch of salt and pepper</br>until they are well mixed. 
+      You can add</br>a tablespoon of water or milk for a</br>fluffier texture.</span></l1>
+      <li><span class="instrictions__bold">Heat the pan:</span><span class="instrictions__color"> Place a non-stick frying</br>pan over medium heat and add butter</br>or oil.</span></l1>
+      <li><span class="instrictions__bold">Cook the omelette:</span><span class="instrictions__color"> Once the butter is</br>melted and bubbling, pour in the eggs.</br> Tilt the pan to ensure the eggs evenly</br>coat the surface.</span></l1>
+      <li><span class="instrictions__bold">Add fillings (optional):</span><span class="instrictions__color"> When the eggs</br>begin to set at the edges but are still</br>slightly runny in the middle, sprinkle</br>your chosen fillings over one half of the omelette.</span></l1>
+      <li><span class="instrictions__bold">Fold and serve:</span><span class="instrictions__color"> As the omelette</br>continues to cook, carefully lift one</br>edge and fold it over the fillings. Let it</br>cook for another minute, then slide it</br>onto a plate.</span></l1>
+      <li><span class="instrictions__bold">Enjoy:</span><span class="instrictions__color"> Serve hot, with additional salt</br>and pepper if needed.</span></l1>
+  </ol>
+
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+  .omelette__img{
+    width: 100vw;
+  }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+After completing the project, I realized that I want and will focus more on CSS because it still takes up a lot of my time. I need to improve my CSS skills for making a page responsive. And in the near future, I plan to learn the JavaScript programming language, as well as some CSS and JavaScript frameworks, SQL database, PHP for backend, or perhaps Node.js.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I have a long way to go, and looking back at my old repositories in the future will be fun and rewarding, seeing the journey I've had to become a programmer.
 
-### Useful resources
+### Thanks!
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+I would like to say thank you if you saw my project and read this README.
+Feel free to share your opinions about this project or maybe some tips to improve my learning process.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+Thank you!
 
-## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+### Author
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+Developed by Erica Nimer.
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
+
