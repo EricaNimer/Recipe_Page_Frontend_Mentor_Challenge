@@ -63,7 +63,7 @@ Creating the recipe page challenge was a challenging yet incredibly rewarding jo
 
 ### What I learned
 
-Even though I already had knowledge of HTML5 and CSS, I had the opportunity to refresh my memory on the <ol> tag for creating ordered lists. As you can see, in the instructions section, I needed a numbered ordered list, but I only knew the <ul> tag for creating lists.
+Even though I already had knowledge of HTML5 and CSS, I had the opportunity to refresh my memory on the "ol" tag for creating ordered lists. As you can see, in the instructions section, I needed a numbered ordered list, but I only knew the "ul" tag for creating lists.
 
 Since this is my first time creating a responsive page, I didn't know how to use and when to use the "vw" unit of measurement. But since the project's focus was on being responsive, this unit of measurement came in handy. Because the content adapts to the width of the client's device screen.
 
