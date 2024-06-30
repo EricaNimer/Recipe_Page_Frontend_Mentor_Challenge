@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
-:root{
-      /* fonts */
-
+:root {
+    /* fonts */
     --first-font: "Young Serif", serif;
     --second-font: "Outfit", sans-serif;
 
-      /* Colors */
-
+    /* Colors */
     --Nutmeg: hsl(14, 45%, 36%);
     --Dark-Raspberry: hsl(332, 51%, 32%);
     --White: hsl(0, 0%, 100%);
@@ -16,29 +14,34 @@
     --Light-Grey: hsl(30, 18%, 87%);
     --Wenge-Brown: hsl(30, 10%, 34%);
     --Dark-Charcoal: hsl(24, 5%, 18%);
-    }
+}
 
-body{
+body {
     margin: 0;
     padding: 0;
     width: 100vw;
+    font-family: var(--second-font);
 }
 
-.omelette__img{
-    width: 100vw;
+.omelette__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.omelette__description{
-    padding-left: 2rem;
+.omelette__description {
+    padding: 2rem;
 }
-.omelette__description h2{
+
+.omelette__description h2 {
     font-family: var(--first-font);
     font-size: 2rem;
     letter-spacing: 0.2rem;
     color: var(--Dark-Charcoal);
 }
 
-.omelette__description p{
+.omelette__description p {
     font-family: var(--second-font);
     font-size: 1rem;
     color: var(--Dark-Charcoal);
@@ -46,285 +49,259 @@ body{
 
 .section__preparation {
     background-color: var(--Rose-White);
-    margin: 2rem 0 0 2.5rem;
-    width: 80vw;
+    margin: 2rem 0;
+    padding: 2rem;
     border-radius: 1.5rem;
-    padding-bottom: 0.25rem;
+    width: calc(100vw - 4rem);
 }
 
-.section__preparation h2{
-    padding: 1.5rem 0 0 2rem ;
+.section__preparation h2 {
     color: var(--Dark-Raspberry);
     font-family: var(--second-font);
+    font-size: 2rem;
 }
 
-.section__preparation ul{
+.section__preparation ul {
     list-style: none;
+    padding: 0;
 }
 
-.section__preparation li{
+.section__preparation li {
     font-family: var(--second-font);
     color: var(--Dark-Charcoal);
-    font-size: 1rem;  
-    padding: 0 0 0.85rem 0.85rem; 
+    font-size: 1rem;
+    padding: 0.85rem 0;
     line-height: 1.5rem;
     position: relative;
+    padding-left: 1.5rem;
 }
 
-.section__preparation li:before{
+.section__preparation li:before {
     content: "\2022";
     color: var(--Dark-Raspberry);
-    position: absolute; 
-    left: -0.5em;
+    position: absolute;
+    left: 0;
     font-size: 1.5rem;
 }
 
-.sapan__preparation{
-    font-weight: 700;
-}
-
-.section__ingredients{
-    padding: 1rem 0 0 2rem;
+.section__ingredients {
+    padding: 2rem;
     font-family: var(--second-font);
     margin-bottom: 3rem;
 }
 
-.section__ingredients h2{
+.section__ingredients h2 {
     font-size: 2rem;
     font-family: var(--first-font);
     color: var(--Nutmeg);
 }
 
-.section__ingredients ul{
+.section__ingredients ul {
     list-style: none;
+    padding: 0;
 }
 
-.section__ingredients li{
-    padding-top: 0.85rem;
-    font-family: var(--second-font);
+.section__ingredients li {
     font-size: 1rem;
     line-height: 1.5rem;
     position: relative;
+    padding-left: 1.5rem;
 }
 
-.section__ingredients li:before{
+.section__ingredients li:before {
     content: "\2022";
-    color: var(--Dark-Raspberry);
-    position: absolute; 
-    left: -1.5em;
+    color: var (--Dark-Raspberry);
+    position: absolute;
+    left: 0;
     font-size: 1.5rem;
 }
 
 hr {
-  width: 80vw;  
+    width: calc(100vw - 4rem);
+    margin: 2rem;
 }
 
-.section__instructions{
-    padding-left: 2rem;
+.section__instructions {
+    padding: 2rem;
 }
 
-.section__instructions h2{
-    color: var(--Nutmeg);
+.section__instructions h2 {
+    color: var (--Nutmeg);
     font-size: 2rem;
-    font-family: var(--first-font);
+    font-family: var (--first-font);
 }
 
-.section__instructions li{
-    font-family: var(--second-font);
+.section__instructions li {
+    font-family: var (--second-font);
     font-weight: 700;
-    color: var(--Dark-Raspberry);
-    font-size: 0.95rem;  
-    padding: 0 0 0.85rem 0.85rem; 
+    color: var (--Dark-Raspberry);
+    font-size: 0.95rem;
+    padding: 0.85rem 0;
     line-height: 1.5rem;
     position: relative;
+    padding-left: 1.5rem;
 }
 
-.instrictions__bold{
+.section__instructions .instrictions__bold {
     font-weight: 700;
-    color: var(--Dark-Charcoal);
+    color: var (--Dark-Charcoal);
 }
 
-.instrictions__color{
-    color: var(--Dark-Charcoal);
+.section__instructions .instrictions__color {
+    color: var (--Dark-Charcoal);
     font-weight: 400;
 }
 
-.section__instructions ol{
+.section__instructions ol {
     list-style: decimal;
+    padding-left: 1.5rem;
 }
 
 .section__instructions ol li::before {
-    color: var(--Dark-Raspberry); /* Altere para a cor desejada */
+    color: var (--Dark-Raspberry);
 }
 
-
-.section__nutrition h2{
+.section__nutrition h2 {
     font-size: 2rem;
-    color: var(--Nutmeg);
-    padding-left: 2rem;
-    font-family: var(--first-font);
+    color: var (--Nutmeg);
+    padding: 2rem;
+    font-family: var (--first-font);
 }
 
-.description__nutrtion{
-    font-family: var(--second-font);
+.description__nutrtion {
+    font-family: var (--second-font);
     font-size: 1rem;
     line-height: 1.5rem;
-    color: var(--Dark-Charcoal);
-    padding-left: 2rem;
-    margin-bottom: 2rem;
+    color: var (--Dark-Charcoal);
+    padding: 2rem;
 }
 
-.nutritional__info{
-    padding-bottom: 1rem;
+.nutritional__info {
+    padding: 1rem;
     align-items: center;
 }
 
-.info__content{
+.info__content {
     font-size: 1rem;
     line-height: 1.5rem;
-    color: var(--Dark-Charcoal);
+    color: var (--Dark-Charcoal);
 }
 
-.infos{
+.infos {
     display: flex;
     justify-content: space-around;
+    padding: 0 2rem;
 }
 
-.info__value{
-    color: var(--Dark-Raspberry);
-    font-weight: 700
-}
-
-.nutritional__info hr{
-    width: 90vw;
-    padding: 0;
-}
-
-.attribution { 
-    margin: 2rem 0 2rem 0;
-    color: var(--Dark-Charcoal);
-    font-family: var(--second-font);
-    font-size: 0.7rem; 
-    text-align: center; 
-}
-.attribution a { 
-    color:var(--Dark-Raspberry); 
-}
-
-@media only screen and (min-width: 376px){
-
-body{
-    margin: 0;
-    padding: 0;  
-}
-
-.img__content{
-    text-align: center;
-}
-
-.omelette__img{
-    width: 80vw;
-    border-radius:10px;
-    margin-top: 3rem;
-}
-
-.omelette__description{
-    margin-left: 8.7rem;
-}
-
-.omelette__description h2{
-    font-size: 4rem;
-}
-
-.omelette__description p{
-    width: 80VW;
-    font-size: 2rem;
-
-}
-
-br {
-    display: none;
-}
-
-.section__preparation{
-    width: 80VW;
-    margin-left: 10.5rem;
-}
-
-.section__preparation h2{
-    font-size: 2.5rem;
-}
-
-.section__preparation ul{
-    margin-left: 1rem;
-}
-
-.section__preparation li{
-    font-size: 1.5rem;
-    padding-left: 2rem;
-}
-
-.section__ingredients{
-    margin-left: 9rem;
-}
-
-.section__ingredients h2{
-    font-size: 2.5rem;
-}
-
-.section__ingredients li{
-    font-size: 1.5rem;
-    line-height: 2rem;
-    color: var(--Dark-Charcoal);
-}
-
-.section__instructions{
-    margin-left: 9rem;
-}
-
-.section__instructions h2{
-    font-size: 2.5rem;
-}
-
-.section__instructions li{
-    width: 70vw;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-}
-
-.section__nutrition{
-    margin-left: 9rem;
-}
-
-.section__nutrition h2{
-    font-size: 2.5rem;
-}
-
-.section__nutrition p {
-    font-size: 1.5rem;
-}
-
-.nutritional__info{
-    width: 70vw;
+.info__value {
+    color: var (--Dark-Raspberry);
+    font-weight: 700;
 }
 
 .nutritional__info hr {
-    margin-left: 2rem;
-    width: 79.55vw;   
-}
-
-.info__content{
-    color: var(--Dark-Charcoal);
-    font-family: var(--second-font);
-}
-
-.info__value{
-    font-family: var(--second-font);
+    width: 90vw;
+    margin: 2rem auto;
 }
 
 .attribution {
-    margin-top: 3.5rem;
-    font-size: 1.25rem;
+    margin: 2rem 0;
+    color: var (--Dark-Charcoal);
+    font-family: var (--second-font);
+    font-size: 0.7rem;
+    text-align: center;
 }
 
+.attribution a {
+    color: var (--Dark-Raspberry);
+}
+
+@media only screen and (min-width: 376px) {
+    .omelette__img {
+        width: 80vw;
+        border-radius: 10px;
+        margin: 3rem auto 0 auto;
+    }
+
+    .omelette__description {
+        margin: 0 auto;
+        width: 80vw;
+        text-align: center;
+    }
+
+    .omelette__description h2 {
+        font-size: 4rem;
+    }
+
+    .omelette__description p {
+        font-size: 2rem;
+    }
+
+    .section__preparation {
+        width: 80vw;
+        margin: 2rem auto;
+    }
+
+    .section__preparation h2 {
+        font-size: 2.5rem;
+    }
+
+    .section__preparation ul {
+        margin-left: 1rem;
+    }
+
+    .section__preparation li {
+        font-size: 1.5rem;
+    }
+
+    .section__ingredients {
+        width: 80vw;
+        margin: 2rem auto;
+    }
+
+    .section__ingredients h2 {
+        font-size: 2.5rem;
+    }
+
+    .section__ingredients li {
+        font-size: 1.5rem;
+    }
+
+    .section__instructions {
+        width: 80vw;
+        margin: 2rem auto;
+    }
+
+    .section__instructions h2 {
+        font-size: 2.5rem;
+    }
+
+    .section__instructions li {
+        font-size: 1.5rem;
+    }
+
+    .section__nutrition {
+        width: 80vw;
+        margin: 2rem auto;
+    }
+
+    .section__nutrition h2 {
+        font-size: 2.5rem;
+    }
+
+    .description__nutrtion {
+        font-size: 1.5rem;
+    }
+
+    .nutritional__info {
+        width: 80vw;
+        margin: 2rem auto;
+    }
+
+    .nutritional__info hr {
+        width: calc(80vw - 2rem);
+    }
+
+    .attribution {
+        font-size: 1.25rem;
+    }
 }
